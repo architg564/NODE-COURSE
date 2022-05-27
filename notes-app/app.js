@@ -1,3 +1,7 @@
-const fs = require('fs');
+const notes = require('./notes');
+const out = notes();
+console.log(out);
 
-fs.appendFileSync('notes.txt', '\nhey there!')
+
+// const fs = require('fs');
+// fs.appendFileSync('notes.txt', '\nhey there!')
